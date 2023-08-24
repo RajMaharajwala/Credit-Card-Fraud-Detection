@@ -1,0 +1,10 @@
+pandas
+numpy
+requests
+regex
+tabulate
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+joblib

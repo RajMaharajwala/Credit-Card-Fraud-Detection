@@ -1,0 +1,33 @@
+With additional time devoted to tackling this challenge, I would consider implementing a more comprehensive and data-driven approach to enhance the credit fraud detection model. Here's an improved strategy:
+
+- Exploring MICE for missing value imputation instead of mode by isFraud category.
+
+- Trying out on various Data Transformation techniques on right skwed attributes
+
+- Trying out on PCA (Principle Components Analysis) Dimensionality Reduction Technique.
+
+- Statistical test among these features such as hypothesis testing, t-test, F-statisic etc
+
+- Clustering for Data Segmentation: Apply clustering algorithms (e.g., K-Means, DBSCAN) to segment the data into meaningful clusters.
+Use cluster labels as an additional feature for modeling.
+
+- Fraud Trends: Identify temporal and transaction-related trends specific to fraudulent activities.
+
+- Iterative Undersampling: For each cluster, perform iterative undersampling to balance the class distribution.
+Undersample the majority class while maintaining diversity within the dataset.
+
+- Model Selection and Tuning: For each cluster, explore a variety of classification models (e.g., Random Forest, Gradient Boosting, XGBoost, Support Vector Machines) with hyperparameter tuning.
+Utilize techniques like cross-validation to find the best model configuration for each cluster.
+
+- Testing and Ensemble: For a given test transaction, determine its cluster using the clustering model.
+Apply the best-performing model from that cluster for fraud classification.
+
+- Ensemble Strategies: Explore ensemble techniques (e.g., stacking) to combine predictions from different models.
+Weight the predictions based on the performance of each model and the cluster it's associated with.
+
+- Model Evaluation and Monitoring: Regularly evaluate models on validation and holdout sets to ensure generalization to unseen data. Implement monitoring mechanisms to detect model degradation or concept drift.
+
+- Feature Engineering: Experiment with feature engineering techniques, such as creating time-based features, transaction frequency, and transaction value ratios.
+
+Continuous Learning: Continuously update and refine the model as new data becomes available.
+Keep exploring new techniques and research in fraud detection.

@@ -1,0 +1,3 @@
+[ 2023-08-18 16:01:01,556 ] 14 app_logger - INFO - Saved the extracted data files from transaction.zip on github to data/
+[ 2023-08-18 16:09:38,278 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2023-08-18 16:09:38,292 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.

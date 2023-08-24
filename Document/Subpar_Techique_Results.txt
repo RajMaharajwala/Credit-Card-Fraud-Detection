@@ -1,0 +1,9 @@
+Methods Explored and Lessons Learned in Imbalanced Data Handling
+
+- In my pursuit of enhancing credit card fraud detection, I delved into a range of methods aimed at addressing the challenge of imbalanced data. 
+
+Among the techniques I rigorously explored were oversampling methods like ADASYN, SMOTE, and their variants. Despite my dedicated efforts, the outcomes I obtained were not in alignment with my initial expectations. This exploration, however, was far from futile. It provided me with invaluable insights into the complexities of mitigating data imbalance and underscored the significance of adapting strategies to the unique intricacies of the credit card fraud detection domain.
+
+Through meticulous experimentation, I scrutinized the effects of each method on key performance metrics. While the results were not as optimal as I had envisioned, this journey illuminated the multifaceted nature of addressing data imbalance challenges. It reinforced the idea that no single approach can guarantee success and emphasized the importance of a dynamic and adaptable approach. Ultimately, these findings lay the foundation for refining future strategies and further advancing the field of credit card fraud detection.
+
+I finally discovered a breakthrough. By employing an undersampling technique with n iterations, I witnessed a remarkable improvement in my modeling results. 
