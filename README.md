@@ -3,7 +3,7 @@
 This project aims to detect credit card fraud using data analysis and machine learning techniques. It includes three main stages: loading and understanding the data, visualization and analysis, and data wrangling and modeling.
 
 ## Project Structure
-![Alt text](Documents/Dir_Structure.png)
+![Alt text](Document/Dir_Structure.png)
 
 ## Contents
 
