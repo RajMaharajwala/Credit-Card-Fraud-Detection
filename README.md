@@ -52,4 +52,4 @@ In the final phase of my exploration, I undertook comprehensive data wrangling a
 - `2_Plot_Visualization.ipynb`
 - `3_DataWrangling_Modeling.ipynb`
 
-I have highlighted all the steps involved in these notebook(.ipnb) files. 
+I have highlighted all the steps involved in these notebook(.ipynb) files. 
